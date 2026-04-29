@@ -30,6 +30,8 @@
 	contains = /obj/item/clothing/head/helmet/ironpot
 
 /datum/supply_pack/armor/light/lakkariancap
+	name = "Crowned Cap"
+	cost = 45
 	name = "Lakkarian Cap"
 	cost = 160 ///One iron, one gold
 	contains = /obj/item/clothing/head/helmet/ironpot/lakkariancap
@@ -79,6 +81,8 @@
 	contains = /obj/item/clothing/armor/plate/full/iron
 
 /datum/supply_pack/armor/light/lakkarianarmor
+	name = "Padded Jupon"
+	cost = 45
 	name = "Lakkarian Armor"
 	cost = 180 //Kinda guessing on this one based on it being heavy armor
 	contains = /obj/item/clothing/armor/gambeson/heavy/lakkarijupon
@@ -96,7 +100,7 @@
 /datum/supply_pack/armor/light/shamaniccoat
 	name = "Shamanic Coat"
 	cost = 30
-	contains = /obj/item/clothing/armor/leather/heavy/atgervi
+	contains = /obj/item/clothing/armor/leather/atgervi
 
 // SHIRT ARMOR
 

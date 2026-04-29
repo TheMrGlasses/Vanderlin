@@ -79,7 +79,7 @@
 /datum/supply_pack/weapons/iron/iida
 	name = "Iron Ida"
 	cost = 60
-	contains = /obj/item/weapon/sword/ida/iron
+	contains = /obj/item/weapon/sword/short/iron/ida
 
 /datum/supply_pack/weapons/iron/iaruval
 	name = "Iron Aruval"
@@ -89,32 +89,32 @@
 /datum/supply_pack/weapons/iron/injora
 	name = "Iron Seme"
 	cost = 30 //Making knives gives 2 knives per ingot usually.
-	contains = /obj/item/weapon/knife/njora/iron
+	contains = /obj/item/weapon/knife/dagger/njora
 
 /datum/supply_pack/weapons/iron/irungu
 	name = "Iron Rungu"
 	cost = 60
-	contains = /obj/item/weapon/mace/rungu/iron
+	contains = /obj/item/weapon/mace/rungu
 
 /datum/supply_pack/weapons/iron/insapo
 	name = "Iron Kasuyu"
 	cost = 60
-	contains = /obj/item/weapon/axe/nsapo/iron
+	contains = /obj/item/weapon/axe/iron/nsapo
 
 /datum/supply_pack/weapons/iron/ijile
 	name = "Iron Jile"
 	cost = 30
-	contains = /obj/item/weapon/knife/jile/iron
+	contains = /obj/item/weapon/knife/dagger/jile
 
 /datum/supply_pack/weapons/iron/ikukri
 	name = "Iron Kukri"
 	cost = 60
-	contains = /obj/item/weapon/knife/dagger/kukri/iron
+	contains = /obj/item/weapon/knife/hunting/kukri/iron
 
 /datum/supply_pack/weapons/iron/ishishpar
 	name = "Iron Shishpar"
 	cost = 120
-	contains = /obj/item/weapon/mace/shishpar/iron
+	contains = /obj/item/weapon/mace/shishpar
 
 /datum/supply_pack/weapons/iron/iassegai
 	name = "Iron Assegai"
@@ -184,7 +184,7 @@
 /datum/supply_pack/weapons/steel/ida
 	name = "Steel Ida"
 	cost = 80
-	contains = /obj/item/weapon/sword/ida
+	contains = /obj/item/weapon/sword/short/ida
 
 /datum/supply_pack/weapons/steel/aruval
 	name = "Steel Aruval"
@@ -194,7 +194,7 @@
 /datum/supply_pack/weapons/steel/njora
 	name = "Steel Seme"
 	cost = 40 //2 knives per ingot
-	contains = /obj/item/weapon/knife/njora/steel
+	contains = /obj/item/weapon/knife/dagger/steel/njora
 
 /datum/supply_pack/weapons/steel/rungu
 	name = "Steel Rungu"
@@ -204,12 +204,12 @@
 /datum/supply_pack/weapons/steel/jile
 	name = "Steel Jile"
 	cost = 40
-	contains = /obj/item/weapon/knife/jile/steel
+	contains = /obj/item/weapon/knife/dagger/steel/jile
 
 /datum/supply_pack/weapons/steel/kukri
 	name = "Steel Kukri"
 	cost = 80
-	contains = /obj/item/weapon/knife/dagger/kukri/steel
+	contains = /obj/item/weapon/knife/hunting/kukri
 
 /datum/supply_pack/weapons/steel/shishpar
 	name = "Steel Shishpar"
@@ -219,7 +219,7 @@
 /datum/supply_pack/weapons/steel/assegai
 	name = "Steel Assegai"
 	cost = 90
-	contains = /obj/item/weapon/polearm/spear/steel/assegai
+	contains = /obj/item/weapon/polearm/spear/assegai/steel
 
 /datum/supply_pack/weapons/steel/atgervi
 	name = "Steel Atgervi Axe"
@@ -297,12 +297,12 @@
 /datum/supply_pack/weapons/ranged/puffer
 	name = "Smuggled Püffer"
 	cost = 500
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/pistol
+	contains = /obj/item/gun/ballistic/powder/wheellock/puffer
 
 /datum/supply_pack/weapons/ranged/musket
 	name = "Smuggled Musket"
 	cost = 750 //needs balancing
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/pistol/musket
+	contains = /obj/item/gun/ballistic/powder/musket
 
 /datum/supply_pack/weapons/ranged/cannon
 	name = "Cannon"
@@ -312,27 +312,27 @@
 /datum/supply_pack/weapons/ranged/crossbow
 	name = "Crossbow"
 	cost = 50
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/crossbow
+	contains = /obj/item/gun/ballistic/bow/cross
 
 /datum/supply_pack/weapons/ranged/slurbow
 	name = "Slurbow"
 	cost = 150
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/crossbow/slurbow
+	contains = /obj/item/gun/ballistic/bow/cross/slur
 
 /datum/supply_pack/weapons/ranged/bow
 	name = "Hunting Bow"
 	cost = 20
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
+	contains = /obj/item/gun/ballistic/bow
 
 /datum/supply_pack/weapons/ranged/longbow
 	name = "Longbow"
 	cost = 30
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/long
+	contains = /obj/item/gun/ballistic/bow/long
 
 /datum/supply_pack/weapons/ranged/shortbow
 	name = "Imported Short Bow"
 	cost = 40
-	contains = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/short
+	contains = /obj/item/gun/ballistic/bow/short
 
 /datum/supply_pack/weapons/ranged/tossbladeiron
 	name = "Iron Tossblade Belt"
